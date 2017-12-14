@@ -1,0 +1,72 @@
+{
+  "assetsByChunkName": {
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-08a7e6a2d505507ac664.js",
+      "component---src-layouts-index-jsx-08a7e6a2d505507ac664.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---categories-microservicios": [
+      "path---categories-microservicios-b06ddc47ea3cd7969e88.js",
+      "path---categories-microservicios-b06ddc47ea3cd7969e88.js.map"
+    ],
+    "path---migracion-a-microservicios-buenas-practicas": [
+      "path---migracion-a-microservicios-buenas-practicas-5bab2940473fbab5bf31.js",
+      "path---migracion-a-microservicios-buenas-practicas-5bab2940473fbab5bf31.js.map"
+    ],
+    "component---src-templates-category-jsx": [
+      "component---src-templates-category-jsx-04a9496049863016d7c6.js",
+      "component---src-templates-category-jsx-04a9496049863016d7c6.js.map"
+    ],
+    "path---index": [
+      "path---index-9fbd1516c2f072230190.js",
+      "path---index-9fbd1516c2f072230190.js.map"
+    ],
+    "component---src-pages-about-jsx": [
+      "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
+      "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
+    ],
+    "commons": [
+      "commons-6670183f20db6a6a6812.js",
+      "build-js-styles.css",
+      "commons-6670183f20db6a6a6812.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-templates-tag-jsx": [
+      "component---src-templates-tag-jsx-aaa311d3d699ffd762ea.js",
+      "component---src-templates-tag-jsx-aaa311d3d699ffd762ea.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-microservicios": [
+      "path---tags-microservicios-f9c52a51792d1d445d82.js",
+      "path---tags-microservicios-f9c52a51792d1d445d82.js.map"
+    ],
+    "component---src-templates-post-jsx": [
+      "component---src-templates-post-jsx-965e05406bdc6b9686b1.js",
+      "component---src-templates-post-jsx-965e05406bdc6b9686b1.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js",
+      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js.map"
+    ],
+    "app": [
+      "app-0ed21fbf3b446d61e2c4.js",
+      "build-js-styles.css",
+      "app-0ed21fbf3b446d61e2c4.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
