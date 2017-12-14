@@ -1,5 +1,5 @@
 ---
-title: "Migración a microservicios: Buenas prácticas"
+title: "Migración a microservicios: Consejos de expertos"
 cover: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
 category: "microservicios"
 tags:
@@ -33,35 +33,37 @@ date: "18/07/2017"
 [Astronomer]:https://www.astronomer.io/
 
 
-Hoy he leído [un artículo de Tamás Török](http://codingsans.com/blog/microservice-architecture-best-practices) sobre microservicios basado en las opiniones de 13 líderes tecnológicos de 5 países diferentes que me gustaría comentar con vosotros, y como el artículo es largo, os he hecho un resumen.
+Hoy he leído [un artículo de Tamás Török](http://codingsans.com/blog/microservice-architecture-best-practices) sobre microservicios basado en las opiniones de 13 líderes tecnológicos de 5 países diferentes que me gustaría comentar con vosotros ya que últimamente está en boca de todo el mundo, y como el artículo es largo, os he hecho un resumen:
+
+---
 
 ## Entender el porqué del cambio a microservicios
 
-> Yo les hago entender (a los clientes que asesora) que **una arquitectura de microservicios**, si se hace bien, **es mas cara y más difícil de construir que un sistema monolítico**. Los microservicios introducen el concepto de red en tu modelo de datos y estos pueden ser particionarlos arbitrariamente en cualquier momento, pudiendose perder. Te estás exponiendo a la computación distribuida <footer><cite>[David Dawson][DavidDawson], Arquitecto de sistemas</footer></cite>
+> Yo les hago entender (a los clientes que asesora) que **una arquitectura de microservicios**, si se hace bien, **es mas cara y más difícil de construir que un sistema monolítico**. Los microservicios introducen el concepto de red en tu modelo de datos por lo que estos pueden ser particionados arbitrariamente en cualquier momento, pudiendose perder. Te estás exponiendo a la computación distribuida <footer><cite>[David Dawson][DavidDawson], Arquitecto de sistemas</footer></cite>
 
 
 ## Definir claramente qué es un microservicio
  
 > Yo no pasaría de un monolito hacia cientos de servicios, sino hacia servicios más grandes que correspondan con los equipos de desarrollo y las áreas de negocio <footer><cite>[Daniel Ben-Zvi][DanielBenZvi], VP of R&D at [SimilarWeb][Similarweb]</footer></cite>
 
-Hay que buscar el equilibrio entre servicio, microservicio y función porque se puede fragmentar tan poco nuestra aplicación que se quede igual que un monolito o fragmentarla en exceso creando un problema con administración de los mismos.
+Hay que buscar el equilibrio entre servicio, microservicio y función porque se puede llegar al punto de fragmentar tan poco nuestra aplicación que se quede igual que un monolito o fragmentarla en exceso generando un problema con la administración de los mismos.
 
-> Determinamos qué es un microservicio mirando qué piezas de código, al cambiarlas, provocan un número exponencial de casos de test... nuestro objetivo era reducir la cantidad de pruebas cada vez que hacíamos un cambio... esto es diferente a que alguien diga "quiero que Facturar sea un microservicio<footer><cite>[Avi Cavale][AviCavale], Co-founder & CEO at [Shippable][Shippable]</cite></footer>
+> Determinamos qué es un microservicio mirando qué piezas de código, al cambiarlas, provocan un número exponencial de casos de test... nuestro objetivo era reducir la cantidad de pruebas cada vez que hacíamos un cambio... esto es diferente a que alguien diga "quiero que Facturar sea un microservicio"<footer><cite>[Avi Cavale][AviCavale], Co-founder & CEO at [Shippable][Shippable]</cite></footer>
 
 ## Ventajas y desventajas de la arquitectura de microservicios
 
 ### Ventajas
 
-* **Escalabilidad**: <blocquote>"puedo ejecutar contenedores con la configuración que quiera teniendo total portabilidad de mi aplicación" <footer><cite>[Steven McCord][StevenMcCord], Founder and CTO at [ICX Media][ICXMedia]</cite></footer><blocquote> 
+* **Escalabilidad**: <blocquote>puedo ejecutar contenedores con la configuración que quiera teniendo total portabilidad de mi aplicación <footer><cite>[Steven McCord][StevenMcCord], Founder and CTO at [ICX Media][ICXMedia]</cite></footer><blocquote> 
 
-* **Fácil mantenimiento**: Equipos diferentes un poco más independientes  
-* Desplegar y configurar sin **sin afectar a otros servicios**
+* **Fácil mantenimiento**: Equipos diferentes algo más independientes  
+* Desplegar y configurar sin **sin molestar a otros equipos**
 * **Aislamiento de problemas** y por consiguiente más sencillos de detectar
 * **Adopción más sencilla** para nuevos desarrolladores por tratarse de piezas más simples
 * **Reparto de responsabilidades**. Un equipo, un microservicio
-* **Conocimiento más profundo** del equipo responsable del microservicio
+* **Conocimiento más profundo** de la pieza por parte del equipo responsable del microservicio
 * **Código más mantenible** al estar mas encapsulado
-* Más **sencillo de evolucionar** si su ámbito e interfaz está bien definido
+* Más **sencillo de evolucionar** siempre y cuando su ámbito e interfaz estén bien definidos
 
 ### Desventajas
 
@@ -69,23 +71,23 @@ Hay que buscar el equilibrio entre servicio, microservicio y función porque se 
 * **Dependencias** entre servicios
 * **Test de integración** más complejos
 * Servicios **demasiado cohesionados** si no se piensa bien la arquitectura desde el principio
-* Gran esfuerzo en **comunicaciones** (gran foco de errores)
+* Gran esfuerzo en **redes y comunicaciones** (gran foco de errores)
 * **Difícil de monitorizar** el sistema completo
 * **Complejidad** añadida para entender el conjunto del sistema
 
   > Si tus procesos de ingeniería no son muy buenos, acabarán con un montón de cosas desperdigadas que no se usarán<footer><cite>[Avi Cavale][AviCavale], Co-founder & CEO at [Shippable][Shippable]</cite></footer>
 
-  > La complejidad de tu sistema crece significativamente. La ingeniería y estandarización se vuelve crítico <footer><cite>[Daniel Ben-Zvi][DanielBenZvi], VP of R&D at [SimilarWeb][SimilarWeb]</cite></footer>
+  > La complejidad de tu sistema crece significativamente. La ingeniería y estandarización es ahor un aspecto crítico <footer><cite>[Daniel Ben-Zvi][DanielBenZvi], VP of R&D at [SimilarWeb][SimilarWeb]</cite></footer>
 
 * Trazar (**logs**) de forma centralizada es más complejo
 
-## Los grandes retos y soluciones de los microservicios
+## Los grandes retos y soluciones al migrar a microservicios
 
 * Cambiar tu sistema de golpe
 
   > Pasar del monolito a microservicios no se puede hacer de golpe <footer><cite>[Brujo Benavides][BrujoBenavides], Ex-CTO at [Inaka][Inaka]</cite></footer>
 
-  > Para una empresa sin experiencia en microservicios hasta una proyecto nuevo puede ser más difícil de lo que se piensa <footer><cite>[Viktor Tusa][ViktorTusa], DevOps Engineer at [LogMeIn][LogMeIn]</cite></footer>
+  > Para una empresa sin experiencia en microservicios, hasta un proyecto nuevo puede ser más difícil de lo que se piensa <footer><cite>[Viktor Tusa][ViktorTusa], DevOps Engineer at [LogMeIn][LogMeIn]</cite></footer>
 
   **Posible solución:** 
   > los desarrollos nuevos se desarrollan como microservicios y poco a poco van extrayendo partes del servidor original (monolito) <footer><cite>[Brujo Benavides][BrujoBenavides] dice:</cite></footer>
@@ -146,7 +148,7 @@ Hay que buscar el equilibrio entre servicio, microservicio y función porque se 
 
 > si el proyecto es nuevo, utilizo el lenguage que dominen mis desarrolladores <footer><cite>[Viktor Tusa][ViktorTusa], DevOps Engineer at [LogMeIn][LogMeIn]</cite></footer>
 
-> Me da igual (qué tecnología) mientras tengan una interfaz <footer><cite>[Steven McCord][StevenMcCord], Founder and CTO at [ICX Media][ICXMedia]</cite></footer>
+> Me da igual (qué tecnología) mientras tengan una interfaz definida <footer><cite>[Steven McCord][StevenMcCord], Founder and CTO at [ICX Media][ICXMedia]</cite></footer>
 
 > No recomendaría mezclar muchos lenguajes porque la contratación se hace más complicada <footer><cite>[Robert Aistleitner][RobertAist], VP of Engineering at [Usersnap][Usersnap]</cite></footer>
 
@@ -158,14 +160,14 @@ Hay que buscar el equilibrio entre servicio, microservicio y función porque se 
 
 [Brujo Benavides][BrujoBenavides] utiliza:
 
-  * Scrapy for web crawling
-  * Celery + RabbitMQ to communicate the microservices
-  * NLTK + Tensorflow (and some others) in the Machine Learning part
-  * AWS services
+  * Scrapy para web crawling
+  * Celery + RabbitMQ para comunicar microservicios
+  * NLTK + Tensorflow (y algún otro) para Machine Learning
+  * Servicios AWS
 
 ## El proceso de selección de la tecnología
 
-> Una de las cosas más importantes es lo que sepan tus desarrolladores y lo grande que sea el soporte (herramientas, comunidad ...) tras el lenguage/tecnología <footer><cite>[Csaba Kassai][Csaba], Lead Developer at [Doctusoft][Doctusoft]</cite></footer>
+> Una de las cosas más importantes es lo que conocen tus desarrolladores y lo grande que sea el soporte (herramientas, comunidad ...) tras el lenguage/tecnología <footer><cite>[Csaba Kassai][Csaba], Lead Developer at [Doctusoft][Doctusoft]</cite></footer>
 
 > Usa tecnologías que tengan detrás mucho soporte (recursos y comunidad) <footer><cite>[Varun Villait][Varun], CEO at [Industry][Industry]</cite></footer>
 
@@ -184,8 +186,12 @@ Prefieren contribuir y utilizar software open source a reinventar la rueda.
 
 Si tienes muchas transformaciones de datos, usa Spark o Kafka Streams. Si tienes desarrolladores Javascript, puedes adoptar algún lenguage funcional (ClojureScript etc...) y también utilizando alguna integración reactiva parecida como Kafka.
 
-### Conclusiones para elegir una tecnología
-
 - No te estreses en elegir la tecnología perfecta. Hazlo de forma incremental y experimental.
-- Cada arquitectura de microservicios es única; la tecnología tiene que alinearse con las necesidades del sistema.
-- Muchas tecnologías diferentes hacen la contratación más complicada.
+- Cada arquitectura de microservicios es única. La tecnología tiene que alinearse con las necesidades del sistema.
+- Muchas tecnologías diferentes hacen la contratación de desarrolladores más complicada.
+
+---
+
+Si queréis saber mi opinión sobre este artículo o comentar algo sobre este resumen o sobre el [artículo original](http://codingsans.com/blog/microservice-architecture-best-practices) podéis hacerlo más abajo en los comentarios (tened en cuenta que, aunque no la lea nadie, esta página es púbica) o esperar a que nos veamos en persona.
+
+Keep coding.
