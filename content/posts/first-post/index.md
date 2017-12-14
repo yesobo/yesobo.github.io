@@ -33,7 +33,7 @@ date: "18/07/2017"
 [Astronomer]:https://www.astronomer.io/
 
 
-Hoy he leído [un artículo de Tamás Török](http://codingsans.com/blog/microservice-architecture-best-practices) sobre microservicios basado en las opiniones de 13 líderes tecnológicos de 5 países diferentes que me gustaría comentar con vosotros, y como el artículos es largo, os he hecho un resumen.
+Hoy he leído [un artículo de Tamás Török](http://codingsans.com/blog/microservice-architecture-best-practices) sobre microservicios basado en las opiniones de 13 líderes tecnológicos de 5 países diferentes que me gustaría comentar con vosotros, y como el artículo es largo, os he hecho un resumen.
 
 ## Entender el porqué del cambio a microservicios
 
