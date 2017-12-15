@@ -192,6 +192,6 @@ Si tienes muchas transformaciones de datos, usa Spark o Kafka Streams. Si tienes
 
 ---
 
-Si queréis saber mi opinión sobre este artículo o comentar algo sobre este resumen o sobre el [artículo original](http://codingsans.com/blog/microservice-architecture-best-practices) podéis hacerlo más abajo en los comentarios (tened en cuenta que, aunque no la lea nadie, esta página es púbica) o esperar a que nos veamos en persona.
+Si queréis saber mi opinión sobre este artículo o comentar algo sobre este resumen o sobre el [artículo original](http://codingsans.com/blog/microservice-architecture-best-practices) podéis hacerlo más abajo en los comentarios (tened en cuenta que, aunque no la lea nadie, esta página es pública) o esperar a que nos veamos en persona.
 
 Keep coding.
