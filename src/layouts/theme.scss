@@ -2,7 +2,6 @@
 $md-primary-color: $md-grey-400;
 $md-secondary-color: $md-red-800;
 $md-tertiary-color: $md-grey-300;
-
 .main-container,
 .darker-background {
     background-color: $md-tertiary-color;
@@ -13,22 +12,110 @@ a:link {
     text-decoration: none;
 }
 
-
 blockquote {
     background: #f9f9f9;
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-  }
-  blockquote:before {
+}
+
+blockquote:before {
     color: #ccc;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-  }
-  blockquote p {
+}
+
+blockquote p {
     display: inline;
-  }
+}
+
+.rank-3 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 3em;
+
+    .first, .second, .third {
+      text-align: center;
+      width: 33%;
+
+      img {
+        max-height: 10em;
+        margin: auto;
+      }
+    }
+    
+    .podium {
+        background-color: white;
+        //outline: 3px solid lightblue;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3px;
+      }
+    .position, .label {
+      text-align: center;
+    }
+    .position {
+        font-size: 2em;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+    .label {
+        display: table;
+        font-size: 1.5em;
+        width: 100%;
+
+        span {
+          display: table-cell;
+          vertical-align: bottom;
+        }
+    }
+    .first {
+        order: 2;
+        z-index: 30;
+        .podium {
+          background-color: gold;
+        }
+        .label {
+          height: 6em;
+        }
+        .position:before {
+          content: '#1';
+        }
+    }
+    .second {
+        order: 1;
+        z-index: 20;
+        .podium {
+          background-color: silver;
+        }
+        .label {
+          height: 3.5em;
+        }
+        .position:before {
+          content: '#2';
+        }
+    }
+    .third {
+        order: 3;
+        z-index: 10;
+        .podium {
+          background-color: #CD7F32;
+        }
+        .label {
+          height: 2em;
+        }
+        .position:before {
+          content: '#3';
+        }
+    }
+}
