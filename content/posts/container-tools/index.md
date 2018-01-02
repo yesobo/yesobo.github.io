@@ -5,7 +5,7 @@ category: "contenedores"
 tags:
     - contenedores
 
-date: "14/12/2017"
+date: "2017/12/14"
 ---
 
 Como sé que estáis bastante emocionados con todo el tema de los contenedores os voy poner de la forma más esquemática posible lo que he leído en un [artículo de Khash Sajadi](http://blog.cloud66.com/8-components-you-need-to-run-containers-in-production/) sobre las herramientas más utilizadas para poder construir un sistema basado en contenedores. No vais a tardar más de 2 minutos en leerlo y os habréis ahorrado un montón de tiempo que ha dedicado nuestro amigo Khash en recopilar esta información.

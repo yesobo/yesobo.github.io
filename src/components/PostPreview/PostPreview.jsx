@@ -7,6 +7,7 @@ import CardText from "react-md/lib/Cards/CardText";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
 import Media, { MediaOverlay } from "react-md/lib/Media";
+import moment from 'moment';
 import PostTags from "../PostTags/PostTags";
 import "./PostPreview.scss";
 
@@ -65,7 +66,7 @@ class PostPreview extends Component {
         <CardTitle
           expander={expand}
           avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-          title={`Published on ${postInfo.date}`}
+          title={`Published on ${moment(postInfo.date).format("DD/MM/YYYY")}`}
           subtitle={`${postInfo.timeToRead} min read`}
         />
 
