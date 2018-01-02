@@ -1,0 +1,92 @@
+{
+  "assetsByChunkName": {
+    "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion": [
+      "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion-ef2c85b630a62204460c.js",
+      "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion-ef2c85b630a62204460c.js.map"
+    ],
+    "path---introduccion-a-microservicios-descubrimiento-de-servicios": [
+      "path---introduccion-a-microservicios-descubrimiento-de-servicios-3bf128a1f4208c355f50.js",
+      "path---introduccion-a-microservicios-descubrimiento-de-servicios-3bf128a1f4208c355f50.js.map"
+    ],
+    "path---migracion-a-microservicios-consejos-de-expertos": [
+      "path---migracion-a-microservicios-consejos-de-expertos-121f5d4b582592fef2ad.js",
+      "path---migracion-a-microservicios-consejos-de-expertos-121f5d4b582592fef2ad.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-08a7e6a2d505507ac664.js",
+      "component---src-layouts-index-jsx-08a7e6a2d505507ac664.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---categories-microservicios": [
+      "path---categories-microservicios-19bc30e83267b2824609.js",
+      "path---categories-microservicios-19bc30e83267b2824609.js.map"
+    ],
+    "path---tags-service-discovery": [
+      "path---tags-service-discovery-812650b2668f60a373ab.js",
+      "path---tags-service-discovery-812650b2668f60a373ab.js.map"
+    ],
+    "component---src-templates-category-jsx": [
+      "component---src-templates-category-jsx-04a9496049863016d7c6.js",
+      "component---src-templates-category-jsx-04a9496049863016d7c6.js.map"
+    ],
+    "path---index": [
+      "path---index-9850f8c16fe5ccbc86a6.js",
+      "path---index-9850f8c16fe5ccbc86a6.js.map"
+    ],
+    "component---src-pages-about-jsx": [
+      "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
+      "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
+    ],
+    "commons": [
+      "commons-e6fccf87b82dc2985ddf.js",
+      "build-js-styles.css",
+      "commons-e6fccf87b82dc2985ddf.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-templates-tag-jsx": [
+      "component---src-templates-tag-jsx-aaa311d3d699ffd762ea.js",
+      "component---src-templates-tag-jsx-aaa311d3d699ffd762ea.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-microservicios": [
+      "path---tags-microservicios-e9bd702b0b77d160c94b.js",
+      "path---tags-microservicios-e9bd702b0b77d160c94b.js.map"
+    ],
+    "component---src-templates-post-jsx": [
+      "component---src-templates-post-jsx-965e05406bdc6b9686b1.js",
+      "component---src-templates-post-jsx-965e05406bdc6b9686b1.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js",
+      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js.map"
+    ],
+    "app": [
+      "app-9f510acccc3e63ead06d.js",
+      "build-js-styles.css",
+      "app-9f510acccc3e63ead06d.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---tags-contenedores": [
+      "path---tags-contenedores-14338b00e9793f60c169.js",
+      "path---tags-contenedores-14338b00e9793f60c169.js.map"
+    ],
+    "path---categories-contenedores": [
+      "path---categories-contenedores-6984730c18d535554468.js",
+      "path---categories-contenedores-6984730c18d535554468.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
