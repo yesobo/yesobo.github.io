@@ -16,7 +16,7 @@ He simplificado qué herramientas se utilizan y su función para ordenarnos un p
 
 ## Motor
 
-El que ejecuta la aplicación (el/los contenedores), es decir, el que crea las instancias de las imagenes.
+El que ejecuta la aplicación (el/los contenedores), es decir, el que crea las instancias de las imágenes.
 
 <div class="rank-3">
   <div class="first">
@@ -136,7 +136,7 @@ Las bases de datos pueden necesitar almacenamiento persistente si las movemos de
 
 ## Monitorización
 
-Las soluciones de monitorización basadas contenedores encajan mejor que las tradicionales que monitorizan a nivel de host.
+Las soluciones de monitorización basadas contenedores encajan mejor que las tradicionales que monitorea a nivel de host.
 
 <div class="rank-3">
   <div class="first">
@@ -169,7 +169,7 @@ Las soluciones de monitorización basadas contenedores encajan mejor que las tra
 
 ## Service mesh (opcional)
 
-Un service mesh es una capa en frente de los servicios disponibles en el cluster que administra, regula y monitoriza el acceso a los mismos basandose en configuraciones y eventos.
+Un service mesh es una capa en frente de los servicios disponibles en el cluster que administra, regula y monitorea el acceso a los mismos basandose en configuraciones y eventos.
 
 <div class="rank-3">
   <div class="first">
@@ -197,6 +197,6 @@ Un service mesh es una capa en frente de los servicios disponibles en el cluster
 
 ---
 
-Si queréis saber mi opinión sobre este artículo o comentar algo sobre este resumen o sobre el [artículo original](http://blog.cloud66.com/8-components-you-need-to-run-containers-in-production/) podéis hacerlo más abajo en los comentarios (tened en cuenta que, aunque no la lea nadie, esta página es púbica) o esperar a que nos veamos en persona.
+Si queréis saber mi opinión sobre este artículo o comentar algo sobre este resumen o sobre el [artículo original](http://blog.cloud66.com/8-components-you-need-to-run-containers-in-production/) podéis hacerlo más abajo en los comentarios (tened en cuenta que, aunque no la lea nadie, esta página es pública) o esperar a que nos veamos en persona.
 
 Keep coding.
