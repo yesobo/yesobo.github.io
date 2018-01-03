@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
     "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion": [
-      "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion-9ef4d7ecdd4a947a34c5.js",
-      "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion-9ef4d7ecdd4a947a34c5.js.map"
+      "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion-cbec3383c1e7dc8daf33.js",
+      "path---las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion-cbec3383c1e7dc8daf33.js.map"
+    ],
+    "path---introduccion-a-microservicios-descubrimiento-de-servicios": [
+      "path---introduccion-a-microservicios-descubrimiento-de-servicios-7cf09eeeea9ec41ed344.js",
+      "path---introduccion-a-microservicios-descubrimiento-de-servicios-7cf09eeeea9ec41ed344.js.map"
     ],
     "path---migracion-a-microservicios-consejos-de-expertos": [
-      "path---migracion-a-microservicios-consejos-de-expertos-2cd1ba1f72f1b9e90e6f.js",
-      "path---migracion-a-microservicios-consejos-de-expertos-2cd1ba1f72f1b9e90e6f.js.map"
+      "path---migracion-a-microservicios-consejos-de-expertos-aea9caf22a25aa1f5cdd.js",
+      "path---migracion-a-microservicios-consejos-de-expertos-aea9caf22a25aa1f5cdd.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,60 +25,64 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---categories-microservicios": [
-      "path---categories-microservicios-348c82251e99cbe84daa.js",
-      "path---categories-microservicios-348c82251e99cbe84daa.js.map"
+      "path---categories-microservicios-d51d67d837857cd0bf0f.js",
+      "path---categories-microservicios-d51d67d837857cd0bf0f.js.map"
+    ],
+    "path---tags-service-discovery": [
+      "path---tags-service-discovery-6681fd6ca7f8504bd7ce.js",
+      "path---tags-service-discovery-6681fd6ca7f8504bd7ce.js.map"
     ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-04a9496049863016d7c6.js",
-      "component---src-templates-category-jsx-04a9496049863016d7c6.js.map"
+      "component---src-templates-category-jsx-94588c5cfd65690ac3cc.js",
+      "component---src-templates-category-jsx-94588c5cfd65690ac3cc.js.map"
     ],
     "path---index": [
-      "path---index-241df1f2ed4de6543317.js",
-      "path---index-241df1f2ed4de6543317.js.map"
+      "path---index-194e3faa889ec759d22b.js",
+      "path---index-194e3faa889ec759d22b.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
     ],
     "commons": [
-      "commons-e6fccf87b82dc2985ddf.js",
+      "commons-5a01f40a46989a75c2e8.js",
       "build-js-styles.css",
-      "commons-e6fccf87b82dc2985ddf.js.map",
+      "commons-5a01f40a46989a75c2e8.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-aaa311d3d699ffd762ea.js",
-      "component---src-templates-tag-jsx-aaa311d3d699ffd762ea.js.map"
+      "component---src-templates-tag-jsx-0320fcd630c862af034b.js",
+      "component---src-templates-tag-jsx-0320fcd630c862af034b.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-microservicios": [
-      "path---tags-microservicios-0490a5492f3cfa6b2f89.js",
-      "path---tags-microservicios-0490a5492f3cfa6b2f89.js.map"
+      "path---tags-microservicios-38987d87f08ce5563be8.js",
+      "path---tags-microservicios-38987d87f08ce5563be8.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-965e05406bdc6b9686b1.js",
-      "component---src-templates-post-jsx-965e05406bdc6b9686b1.js.map"
+      "component---src-templates-post-jsx-2de2ea4384a0d9d954bc.js",
+      "component---src-templates-post-jsx-2de2ea4384a0d9d954bc.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js",
-      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js.map"
+      "component---src-pages-index-jsx-dccde82021da1f01e5d5.js",
+      "component---src-pages-index-jsx-dccde82021da1f01e5d5.js.map"
     ],
     "app": [
-      "app-0eeffcfbece4036ab0ca.js",
+      "app-9f510acccc3e63ead06d.js",
       "build-js-styles.css",
-      "app-0eeffcfbece4036ab0ca.js.map",
+      "app-9f510acccc3e63ead06d.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-contenedores": [
-      "path---tags-contenedores-14338b00e9793f60c169.js",
-      "path---tags-contenedores-14338b00e9793f60c169.js.map"
+      "path---tags-contenedores-daa03cb112bae7e0532d.js",
+      "path---tags-contenedores-daa03cb112bae7e0532d.js.map"
     ],
     "path---categories-contenedores": [
-      "path---categories-contenedores-6984730c18d535554468.js",
-      "path---categories-contenedores-6984730c18d535554468.js.map"
+      "path---categories-contenedores-50514660eb6216e3b945.js",
+      "path---categories-contenedores-50514660eb6216e3b945.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
