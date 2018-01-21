@@ -20,7 +20,7 @@ El que ejecuta la aplicación (el/los contenedores), es decir, el que crea las i
 
 <div class="rank-3">
   <div class="first">
-    <img src="http://www.storagereview.com/images/StorageREview-Panzura-Docker.jpg"></img>
+    <img src="https://www.docker.com/sites/default/files/mono_vertical_large.png"></img>
     <div class="podium">
       <div class="position"></div>
       <div class="label"><span>Docker</span></div>
