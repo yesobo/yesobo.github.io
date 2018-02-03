@@ -1,0 +1,60 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 10,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/migracion-a-microservicios-consejos-de-expertos"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/introduccion-a-microservicios-descubrimiento-de-servicios"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/las-piezas-que-necesitas-para-ejecutar-contenedores-en-produccion"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/microservicios/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/service-discovery/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/contenedores/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/categories/microservicios/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/categories/contenedores/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/about/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
