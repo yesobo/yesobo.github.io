@@ -126,7 +126,7 @@ Las bases de datos pueden necesitar almacenamiento persistente si las movemos de
     </div>
   </div>
   <div class="third">
-    <img src="https://portworx.com/wp-content/themes/portworx/images/xportworx-logo.png.pagespeed.ic.ayZnTb18x1.webp"></img>
+    <img src="https://d1q6f0aelx0por.cloudfront.net/product-logos/06b763e8-62de-4a5d-ac4c-e410de1cb134-portworx-logo-u30-w86.png"></img>
     <div class="podium">
       <div class="position"></div>
       <div class="label"><span>Portworx</span></div>
